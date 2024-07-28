@@ -1,0 +1,23 @@
+{
+  "name": "boot_http_project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "jest": {
+    "transform": {}
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2",
+    "jsdom": "^24.1.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
